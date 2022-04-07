@@ -25,27 +25,28 @@ style {
 }
 
 p, ol, ul, td {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
 body {
-    background-color: #fff;
-    color: #333;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 33px;
 }
 
 strong {
@@ -86,9 +87,9 @@ th {
 }
 
 tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
 
 td {
@@ -97,9 +98,19 @@ td {
   padding-right: 5px;
 }
 
-form {
+ul {
   display: block;
-  margin-top: 0em;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
 h1 {
@@ -123,14 +134,14 @@ h2 {
 }
 
 div.field, div.actions {
-    margin-bottom: 10px;
-}
-
-div {
-    display: block;
+  margin-bottom: 10px;
 }
 
 label {
-    display: block;
-    cursor: default;
+  display: block;
+  cursor: default;
+}
+
+input[type="submit"] {
+  padding: 1px 6px;
 }
