@@ -24,6 +24,10 @@ style {
   display: none;
 }
 
+#success {
+  color: green;
+}
+
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -137,7 +141,7 @@ h1 {
   font-weight: bold;
   padding: 5px 5px 5px 15px;
   font-size: 12px;
-  margin: -7px;
+  margin: -6px;
   margin-bottom: 0;
   background-color: #c00;
   color: #fff;
